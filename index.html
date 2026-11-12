@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AgroSeller Backup</title>
+  <style>
+    :root { color-scheme: light dark; --bg: #f5f7f4; --card: #fff; --ink: #1f2a24; --muted: #5f6b63; --line: #dfe6e0; --accent: #2f7d32; }
+    @media (prefers-color-scheme: dark) { :root { --bg: #101512; --card: #181e1a; --ink: #e3eae5; --muted: #9aa79f; --line: #2f3a33; --accent: #7fc983; } }
+    body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.6 system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; }
+    main { max-width: 680px; margin: 0 auto; padding: 48px 16px; }
+    .card { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 28px; }
+    h1 { margin: 0 0 8px; font-size: 1.6rem; }
+    p { margin: 12px 0; }
+    .muted { color: var(--muted); }
+    a { color: var(--accent); }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="card">
+      <h1>AgroSeller Backup</h1>
+      <p class="muted">Private backups for the AgroSeller shop app.</p>
+      <p>
+        AgroSeller Backup copies the AgroSeller app's daily database backups into the owner's own Google Drive.
+        The backups are encrypted on the server before they are uploaded, and they are kept so the shop's data can be
+        restored if the server is ever lost.
+      </p>
+      <p>
+        It only uses the Google Drive permission to see and manage the files it creates itself; it cannot see any other
+        files in the Drive. It is used only by the owner of the AgroSeller shop app.
+      </p>
+      <p><a href="privacy.html">Privacy policy</a></p>
+    </div>
+  </main>
+</body>
+</html>
